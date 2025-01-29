@@ -1,1 +1,18 @@
-Index.html
+body {
+    font-family: sans-serif;
+}
+
+#app {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
