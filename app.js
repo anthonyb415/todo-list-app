@@ -28,4 +28,14 @@ addTaskForm.addEventListener('submit', (event) => {
         taskList.appendChild(newTaskItem);
         newTaskInput.value = ''; // Clear the input field
     }
-});
+    //... (previous code)...
+
+editButton.addEventListener('click', () => {
+    const currentTaskText = newTaskItem.textContent;
+    const newTaskText = prompt('Edit task:', currentTaskText);
+    if (newTaskText!== null) {
+      newTaskItem.textContent = newTaskText;
+    }
+  });
+  
+  //... (rest of the code)...
