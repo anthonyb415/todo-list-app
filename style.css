@@ -16,3 +16,12 @@ body {
     padding: 10px;
     border-bottom: 1px solid #eee;
 }
+/* Previous styles */
+
+#task-list li button {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+}
